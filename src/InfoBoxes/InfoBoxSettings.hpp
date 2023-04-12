@@ -100,13 +100,18 @@ struct InfoBoxSettings {
     BOTTOM_RIGHT_10 = 22,
     /** 10 infoboxes split bottom/top or left/right */
     SPLIT_10 = 23,
-    /** 12 infoboxes 3X4 split bottom/top or left/right */
+    /** 12 infoboxes 3X4 split 1 bottom/2 top or 2 left/ 1 right */
     SPLIT_3X4 = 24,
-    /** 15 infoboxes 3X5 split bottom/top or left/right */
+    /** 15 infoboxes 3X5 split 1 bottom/2 top or 2 left/ 1 right */
     SPLIT_3X5 = 25,
-    /** 18 infoboxes 3X6 split bottom/top or left/right */
+    /** 18 infoboxes 3X6 split 1 bottom/2 top or 2 left/ 1 right */
     SPLIT_3X6 = 26,
-
+    /** 12 infoboxes 3X4 split 2 bottom/1 top or 1 left/ 2 right */
+    SPLIT_3X4_FLIPPED = 27,
+    /** 15 infoboxes 3X5 split 2 bottom/1 top or 1 left/ 2 right */
+    SPLIT_3X5_FLIPPED = 28,
+    /** 18 infoboxes 3X6 split 2 bottom/1 top or 1 left/ 2 right */
+    SPLIT_3X6_FLIPPED = 29,    
   } geometry;
 
   bool inverse, use_colors;
